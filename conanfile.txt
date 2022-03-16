@@ -1,0 +1,9 @@
+[requires]
+poco/1.11.1
+nlohmann_json/3.10.5
+libcurl/7.80.0
+inja/3.3.0
+openssl/1.1.1m
+
+[generators]
+cmake

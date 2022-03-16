@@ -1,0 +1,929 @@
+{
+    "stats":
+    [
+        {
+            "name": "Class.accum.iBuildingsDestroyed",
+            "description": "Total buildings destroyed as Class"
+        },
+        {
+            "name": "Class.accum.iDamageDealt",
+            "description": "Total damage dealt as Class"
+        },
+        {
+            "name": "Class.accum.iDominations",
+            "description": "Total dominations as Class"
+        },
+        {
+            "name": "Class.accum.iKillAssists",
+            "description": "Total kill assists as Class"
+        },
+        {
+            "name": "Class.accum.iNumberOfKills",
+            "description": "Total kills as Class"
+        },
+        {
+            "name": "Class.accum.iPlayTime",
+            "description": "Total playtime as Class"
+        },
+        {
+            "name": "Class.accum.iPointCaptures",
+            "description": "Total captures as Class"
+        },
+        {
+            "name": "Class.accum.iPointDefenses",
+            "description": "Total defenses as Class"
+        },
+        {
+            "name": "Class.accum.iPointsScored",
+            "description": "Total points as Class"
+        },
+        {
+            "name": "Class.accum.iRevenge",
+            "description": "Total revenges as Class"
+        },
+        {
+            "name": "Class.max.iBuildingsDestroyed",
+            "description": "Max buildings destroyed in one life as Class"
+        },
+        {
+            "name": "Class.max.iDamageDealt",
+            "description": "Max damage dealt in one life as Class"
+        },
+        {
+            "name": "Class.max.iDominations",
+            "description": "Max dominations in one life as Class"
+        },
+        {
+            "name": "Class.max.iKillAssists",
+            "description": "Max kill assists in one life as Class"
+        },
+        {
+            "name": "Class.max.iNumberOfKills",
+            "description": "Max kills in one life as Class"
+        },
+        {
+            "name": "Class.max.iPlayTime",
+            "description": "Longest life as Class"
+        },
+        {
+            "name": "Class.max.iPointCaptures",
+            "description": "Max captures in one life as Class"
+        },
+        {
+            "name": "Class.max.iPointDefenses",
+            "description": "Max defenses in one life as Class"
+        },
+        {
+            "name": "Class.max.iPointsScored",
+            "description": "Max points in one life as Class"
+        },
+        {
+            "name": "Class.max.iRevenge",
+            "description": "Max revenges in one life as Class"
+        },
+        {
+            "name": "Class.accum.iNumInvulnerable",
+            "description": "Total Übercharges as Class"
+        },
+        {
+            "name": "Class.max.iNumInvulnerable",
+            "description": "Max Übercharges in one life as Class"
+        },
+        {
+            "name": "Class.accum.iBackstabs",
+            "description": "Total backstabs as Class"
+        },
+        {
+            "name": "Class.max.iBackstabs",
+            "description": "Max backstabs in one life as Class"
+        },
+        {
+            "name": "Class.accum.iBuildingsBuilt",
+            "description": "Total buildings built as Class"
+        },
+        {
+            "name": "Class.max.iBuildingsBuilt",
+            "description": "Max buildings built in one life as Class"
+        },
+        {
+            "name": "Class.accum.iHeadshots",
+            "description": "Total headshots as Class"
+        },
+        {
+            "name": "Class.max.iHeadshots",
+            "description": "Max headshots in one life as Class"
+        },
+        {
+            "name": "Class.accum.iHealthPointsLeached",
+            "description": "Total HP leeched as Class"
+        },
+        {
+            "name": "Class.max.iHealthPointsLeached",
+            "description": "Max HP leeched in one life as Class"
+        },
+        {
+            "name": "Class.accum.iHealthPointsHealed",
+            "description": "Total HP healed as Class"
+        },
+        {
+            "name": "Class.max.iHealthPointsHealed",
+            "description": "Max HP healed in one life as Class"
+        },
+        {
+            "name": "Class.accum.iNumTeleports",
+            "description": "Total teleports as Class"
+        },
+        {
+            "name": "Class.max.iNumTeleports",
+            "description": "Max teleports in one life as Class"
+        },
+        {
+            "name": "Class.max.iSentryKills",
+            "description": "Max sentry gun kills in one life as Class"
+        },
+        {
+            "name": "TF_PYRO_FORCE_WATERJUMP_STAT",
+            "description": "Enemies that you forced to jump into water as Pyro"
+        },
+        {
+            "name": "TF_PYRO_KILL_POSTDEATH_STAT",
+            "description": "Posthumous kills as Pyro"
+        },
+        {
+            "name": "TF_PYRO_KILL_SPIES_STAT",
+            "description": "Spies killed as Pyro that had a sapper on a friendly Engineer's building"
+        },
+        {
+            "name": "TF_PYRO_KILL_CARRIERS_STAT",
+            "description": "Enemies ignited that were carrying the intelligence as Pyro"
+        },
+        {
+            "name": "TF_PYRO_REVEAL_SPIES_STAT",
+            "description": "Cloaked Spies ignited as Pyro"
+        },
+        {
+            "name": "TF_PYRO_BURN_SPIES_AS_YOU_STAT",
+            "description": "Disguised Spies ignited as Pyro"
+        },
+        {
+            "name": "TF_PYRO_BURN_SNIPERS_ZOOMED_STAT",
+            "description": "Snipers ignited that are scoped in as Pyro"
+        },
+        {
+            "name": "TF_PYRO_BURN_MEDICS_CHARGED_STAT",
+            "description": "Medics carrying ÜberCharge ignited as Pyro"
+        },
+        {
+            "name": "TF_PYRO_KILL_HEAVIES_STAT",
+            "description": "Heavies killed as Pyro with flamethrower"
+        },
+        {
+            "name": "TF_PYRO_KILL_UNDERWATER_STAT",
+            "description": "Enemies killed as Pyro while underwater"
+        },
+        {
+            "name": "TF_PYRO_DESTROY_BUILDINGS_STAT",
+            "description": "Buildings destroyed as Pyro"
+        },
+        {
+            "name": "TF_PYRO_DEFEND_POINTS_STAT",
+            "description": "Enemies ignited that are capturing your point as Pyro"
+        },
+        {
+            "name": "TF_PYRO_KILL_GRIND_STAT",
+            "description": "Kills as Pyro (for the 500 kills achievement)"
+        },
+        {
+            "name": "TF_PYRO_DAMAGE_GRIND_STAT",
+            "description": "Total amount of fire damage as Pyro"
+        },
+        {
+            "name": "TF_PYRO_KILL_TAUNTERS_STAT",
+            "description": "Enemies killed that are taunting as Pyro"
+        },
+        {
+            "name": "TF_PYRO_CAMP_TELEPORTERS_STAT",
+            "description": "Enemies that recently took a teleporter ignited as Pyro"
+        },
+        {
+            "name": "TF_PYRO_FREEZECAM_TAUNTS_STAT",
+            "description": "Freezecam taunts performed as Pyro"
+        },
+        {
+            "name": "TF_PYRO_KILL_FROM_BEHIND_STAT",
+            "description": "Enemies killed from behind as Pyro"
+        },
+        {
+            "name": "TF_PYRO_KILL_GRIND_LARGE_STAT",
+            "description": "Kills as Pyro (for the 1000 kills achievement)"
+        },
+        {
+            "name": "TF_PYRO_IGNITE_FLAREGUN_STAT",
+            "description": "Enemies ignited with the flare gun"
+        },
+        {
+            "name": "Class.accum.iFireDamage",
+            "description": "Total fire damage as Class"
+        },
+        {
+            "name": "TF_HEAVY_DEFEND_MEDIC_STAT",
+            "description": "Enemies killed that attacked your Medic as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_KILL_FLAG_CARRIERS_STAT",
+            "description": "Enemies killed carrying the intelligence as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_BLOCK_CART_STAT",
+            "description": "Times you blocked the enemy cart from being pushed"
+        },
+        {
+            "name": "TF_HEAVY_RECEIVE_UBER_GRIND_STAT",
+            "description": "ÜberCharges received as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_STAND_NEAR_DISPENSER_STAT",
+            "description": "Enemies killed as Heavy standing near a dispenser"
+        },
+        {
+            "name": "TF_HEAVY_ASSIST_HEAVY_GRIND_STAT",
+            "description": "Assists either received from or given to a friendly Heavy as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_CLEAR_STICKYBOMBS_STAT",
+            "description": "Stickybombs cleared as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_KILL_UNDERWATER_STAT",
+            "description": "Enemies killed underwater as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_KILL_DOMINATED_STAT",
+            "description": "Kills on already dominated players as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_ASSIST_GRIND_STAT",
+            "description": "Assists as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_UNCOVER_SPIES_STAT",
+            "description": "Kills and/or assists on cloaked Spies as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_PAYLOAD_CAP_GRIND_STAT",
+            "description": "Captures on Payload maps as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_KILL_MIDAIR_MINIGUN_STAT",
+            "description": "Enemies killed in mid-air as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_DEFEND_CONTROL_POINT_STAT",
+            "description": "Enemies killed as Heavy while standing on a control point you own"
+        },
+        {
+            "name": "TF_HEAVY_KILL_CAPPING_ENEMIES_STAT",
+            "description": "Enemies killed that are capturing your control point as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_REVENGE_ASSIST_STAT",
+            "description": "Assists given to players that killed their nemesis as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_EAT_SANDWICHES_STAT",
+            "description": "Sandviches consumed as Heavy"
+        },
+        {
+            "name": "TF_HEAVY_KILL_SCOUTS_STAT",
+            "description": "Scouts killed as Heavy with Natascha"
+        },
+        {
+            "name": "TF_HEAVY_KILL_HEAVIES_GLOVES_STAT",
+            "description": "Kills on enemy Heavies with the Killing Gloves of Boxing"
+        },
+        {
+            "name": "TF_PYRO_KILL_MULTIWEAPONS_STAT",
+            "description": "Finisher kills with the shotgun on ignited enemies as Pyro"
+        },
+        {
+            "name": "TF_SCOUT_FIRST_BLOOD_KILL_STAT",
+            "description": "Kills with first blood crits as Scout"
+        },
+        {
+            "name": "TF_SCOUT_LIFETIME_KILLS_STAT",
+            "description": "Kills as Scout"
+        },
+        {
+            "name": "TF_SCOUT_DESTROY_TELEPORTERS_STAT",
+            "description": "Teleporter entrances destroyed as Scout"
+        },
+        {
+            "name": "TF_SCOUT_DESTROY_BUILDINGS_BEING_BUILT_STAT",
+            "description": "Still constructing buildings destroyed as Scout"
+        },
+        {
+            "name": "TF_SCOUT_DOUBLE_JUMPS_STAT",
+            "description": "Double jumps performed as Scout"
+        },
+        {
+            "name": "TF_SCOUT_DOUBLEJUMP_KILL_STAT",
+            "description": "Enemies killed as Scout while double jumping"
+        },
+        {
+            "name": "TF_SCOUT_FLAG_CAP_GRIND_STAT",
+            "description": "Times you captured the intelligence as Scout"
+        },
+        {
+            "name": "TF_SCOUT_KILL_STUNNED_STAT",
+            "description": "Kills and/or assists on stunned enemies as Scout"
+        },
+        {
+            "name": "TF_SCOUT_STUN_UBER_ENEMIES_STAT",
+            "description": "Medics carrying an ÜberCharge stunned as Scout"
+        },
+        {
+            "name": "TF_SCOUT_STUN_CAPPING_ENEMIES_STAT",
+            "description": "Enemies stunned that are capturing a point or pushing the cart as Scout"
+        },
+        {
+            "name": "TF_SCOUT_KILL_IN_DODGE_COOLDOWN_STAT",
+            "description": "Heavies killed and stolen their Sandvich from as Scout"
+        },
+        {
+            "name": "TF_SCOUT_KILL_FROM_BEHIND_STAT",
+            "description": "Enemies killed from behind with the Force-A-Nature as Scout"
+        },
+        {
+            "name": "TF_SCOUT_START_AND_FINISH_CAP_STAT",
+            "description": "Control point captures from start to finish as Scout"
+        },
+        {
+            "name": "TF_SCOUT_BLOCK_CAPS_STAT",
+            "description": "Enemy captures blocked as Scout"
+        },
+        {
+            "name": "TF_SCOUT_LONG_DISTANCE_RUNNER_STAT",
+            "description": "Kilometers ran as Scout"
+        },
+        {
+            "name": "TF_SNIPER_KILL_GRIND_STAT",
+            "description": "Kills as Sniper"
+        },
+        {
+            "name": "TF_SNIPER_HEADSHOT_SNIPERS_STAT",
+            "description": "Headshots on enemy Snipers as Sniper"
+        },
+        {
+            "name": "TF_SNIPER_DESTROY_SENTRYGUNS_STAT",
+            "description": "Sentry guns destroyed as Sniper"
+        },
+        {
+            "name": "TF_SNIPER_KILL_SPIES_MELEE_STAT",
+            "description": "Spies killed with melee weapon as Spy"
+        },
+        {
+            "name": "TF_SNIPER_KILL_UNSCOPED_STAT",
+            "description": "Noscope kills as Sniper"
+        },
+        {
+            "name": "TF_SNIPER_GET_BACKSTABBED_STAT",
+            "description": "Times backstabbed as Sniper"
+        },
+        {
+            "name": "TF_SNIPER_TOP_SCOREBOARD_GRIND_STAT",
+            "description": "Times you were the MVP as Sniper"
+        },
+        {
+            "name": "TF_SPY_BACKSTAB_FRIENDS_STAT",
+            "description": "Steam friends backstabbed"
+        },
+        {
+            "name": "TF_SPY_KILL_CP_DEFENDERS_STAT",
+            "description": "Capture point defenders killed as Spy"
+        },
+        {
+            "name": "TF_SPY_BACKSTAB_GRIND_STAT",
+            "description": "Backstabs as Spy"
+        },
+        {
+            "name": "TF_SPY_BACKSTAB_CAPPING_ENEMIES_STAT",
+            "description": "Backstabs on capping enemies"
+        },
+        {
+            "name": "TF_SPY_AMBASSADOR_GRIND_STAT",
+            "description": "Ambassador kills"
+        },
+        {
+            "name": "TF_SPY_AMBASSADOR_SNIPER_GRIND_STAT",
+            "description": "Snipers headshot with the Ambassador"
+        },
+        {
+            "name": "TF_SPY_AMBASSADOR_SCOUT_GRIND_STAT",
+            "description": "Scouts headshot with the Ambassador"
+        },
+        {
+            "name": "TF_SPY_SAPPER_GRIND_STAT",
+            "description": "Buildings sapped as Spy"
+        },
+        {
+            "name": "TF_SPY_KILL_WORKING_ENGY_STAT",
+            "description": "Engineers killed as Spy that were working on a sentry gun"
+        },
+        {
+            "name": "TF_HALLOWEEN_COLLECT_PUMPKINS_STAT",
+            "description": "Crumpkins collected from dead players during Halloween"
+        },
+        {
+            "name": "TF_HALLOWEEN_PUMPKIN_KILL_STAT",
+            "description": "Pumpkin bomb kills"
+        },
+        {
+            "name": "TF_SOLDIER_KILL_DEMOMAN_GRIND_STAT",
+            "description": "Demomen killed as Soldier"
+        },
+        {
+            "name": "TF_SOLDIER_KILL_WITH_EQUALIZER_WHILE_HURT_STAT",
+            "description": "Enemies killed with the Equalizer while on <25 health"
+        },
+        {
+            "name": "TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT_STAT",
+            "description": "Airshots with the Direct Hit"
+        },
+        {
+            "name": "TF_SOLDIER_DESTROY_SENTRY_OUT_OF_RANGE_STAT",
+            "description": "Sentry guns destroyed as Soldier that are out of range"
+        },
+        {
+            "name": "TF_SOLDIER_DUO_SOLDIER_KILLS_STAT",
+            "description": "Enemies killed/assisted in killing as Soldier with assist/kill from another Soldier"
+        },
+        {
+            "name": "TF_SOLDIER_MVP_STAT",
+            "description": "Times you were the MVP as Soldier"
+        },
+        {
+            "name": "TF_SOLDIER_KILL_ON_FIRE_STAT",
+            "description": "Enemies killed while on fire as Soldier"
+        },
+        {
+            "name": "TF_SOLDIER_GIB_GRIND_STAT",
+            "description": "Players gibbed as Soldier"
+        },
+        {
+            "name": "TF_SOLDIER_KILL_TWENTY_FROM_ABOVE_STAT",
+            "description": "Enemies killed from above as Soldier"
+        },
+        {
+            "name": "TF_SOLDIER_KILL_FIVE_STUNNED_STAT",
+            "description": "Stunned enemies killed as Soldier"
+        },
+        {
+            "name": "TF_SOLDIER_DEFEND_CAP_THIRTY_TIMES_STAT",
+            "description": "Times you defended a Capture Point as Soldier"
+        },
+        {
+            "name": "TF_DEMOMAN_KILL_SOLDIER_GRIND_STAT",
+            "description": "Soldiers killed as Demoman"
+        },
+        {
+            "name": "TF_DEMOMAN_KILL_X_WITH_DIRECTPIPE_STAT",
+            "description": "Kills with Grenade Launcher direct hits"
+        },
+        {
+            "name": "TF_DEMOMAN_DOMINATE_THREE_ENGINEERS_STAT",
+            "description": "Engineers dominated as Demoman"
+        },
+        {
+            "name": "TF_DEMOMAN_DECAPITATE_PLAYERS_STAT",
+            "description": "Enemies decapitated as Demoman"
+        },
+        {
+            "name": "TF_DEMOMAN_DUO_DEMOMAN_KILLS_STAT",
+            "description": "Enemies killed/assisted in killing as Demoman with assist/kill from another Demoman"
+        },
+        {
+            "name": "TF_DEMOMAN_DAMAGE_GRIND_STAT",
+            "description": "Blast damage dealt as Demoman"
+        },
+        {
+            "name": "TF_DEMOMAN_KILL_X_CAPPING_ONEDET_STAT",
+            "description": "Times you killed 3+ enemies capping or pushing a cart as Demoman in a single detonation"
+        },
+        {
+            "name": "TF_DEMOMAN_KILL_X_DEFENDING_STAT",
+            "description": "Enemies killed defending a capture point or cart as Demoman"
+        },
+        {
+            "name": "TF_DEMOMAN_DESTROY_BUILDINGS_GRIND_STAT",
+            "description": "Buildings destroyed as Demoman"
+        },
+        {
+            "name": "TF_DEMOMAN_KILL_X_HEAVIES_FULLHP_ONEDET_STAT",
+            "description": "Heavies killed from full health in a single detonation as Demoman"
+        },
+        {
+            "name": "TF_DEMOMAN_KILL_X_SCOUTS_PYROS_STAT",
+            "description": "Scouts and Pyros killed with the Grenade Launcher"
+        },
+        {
+            "name": "TF_DEMOMAN_DESTROY_X_STICKYBOMBS_STAT",
+            "description": "Sticky bombs destroyed with the Scottish Resistance"
+        },
+        {
+            "name": "TF_DEMOMAN_CRIT_SWORD_KILL_STAT",
+            "description": "Kills with a crit Eyelander swing"
+        },
+        {
+            "name": "TF_DEMOMAN_AIR_BURST_KILLS_STAT",
+            "description": "Kills with air burst sticky bombs"
+        },
+        {
+            "name": "TF_DEMOMAN_KILLXSAPPINGSPIES_STAT",
+            "description": "Spies killed that were sapping a friendly building 5 seconds ago as Demoman"
+        },
+        {
+            "name": "TF_ENGINEER_MANUAL_SENTRY_KILLS_BEYOND_RANGE_STAT",
+            "description": "Enemies killed outside of sentry gun range with the Wrangler"
+        },
+        {
+            "name": "TF_ENGINEER_SENTRY_KILL_CAPS_STAT",
+            "description": "Enemies killed with a sentry gun that were capturing a control point"
+        },
+        {
+            "name": "TF_ENGINEER_DESTROY_SAPPERS_STAT",
+            "description": "Sappers on friendly buildings destroyed as Engineer"
+        },
+        {
+            "name": "TF_ENGINEER_HELP_MANUAL_SENTRY_STAT",
+            "description": "Times you repaired a building being wrangled by a friendly Engineer"
+        },
+        {
+            "name": "TF_ENGINEER_TELEPORT_GRIND_STAT",
+            "description": "Teleports as Engineer"
+        },
+        {
+            "name": "TF_ENGINEER_DISPENSER_EXTINGUISH_STAT",
+            "description": "Teammates extinguished with dispensers"
+        },
+        {
+            "name": "TF_ENGINEER_MANUAL_CLOAKED_SPY_KILL_STAT",
+            "description": "Cloaked Spies killed with the Wrangler"
+        },
+        {
+            "name": "TF_ENGINEER_UPGRADE_BUILDINGS_STAT",
+            "description": "Friendly buildings upgraded as Engineer"
+        },
+        {
+            "name": "TF_ENGINEER_SENTRY_KILL_LIFETIME_GRIND_STAT",
+            "description": "Total sentry gun kills"
+        },
+        {
+            "name": "TF_ENGINEER_WASTE_METAL_GRIND_STAT",
+            "description": "Metal picked up from destroyed buildings"
+        },
+        {
+            "name": "TF_ENGINEER_KILL_FLAG_CARRIERS_STAT",
+            "description": "Intelligence carriers killed as Engineer"
+        },
+        {
+            "name": "TF_ENGINEER_DESTROY_STICKIES_STAT",
+            "description": "Stickies destroyed as Engineer that were in range of friendly buildings"
+        },
+        {
+            "name": "TF_ENGINEER_KILL_SNIPERS_SENTRY_STAT",
+            "description": "Snipers killed with the Wrangler"
+        },
+        {
+            "name": "TF_ENGINEER_BUILDING_CARRY_STAT",
+            "description": "Distance you hauled buildings for as Engineer"
+        },
+        {
+            "name": "TF_ENGINEER_KILL_ASSIST_STAT",
+            "description": "Kill assists with friendly Engineer with a sentry gun involved as Engineer"
+        },
+        {
+            "name": "TF_ENGINEER_DISPENSER_HEAL_GRIND_STAT",
+            "description": "Health dispensed with Dispensers"
+        },
+        {
+            "name": "TF_ENGINEER_REPAIR_TEAM_GRIND_STAT",
+            "description": "Damage repaired to friendly buildings as Engineer"
+        },
+        {
+            "name": "TF_COMPLETE_TRAINING_STAT",
+            "description": "Class trainings completed (\"Ready for Duty\" achievement)"
+        },
+        {
+            "name": "TF_REPLAY_YOUTUBE_VIEWS_STAT",
+            "description": "YouTube views on your replay"
+        },
+        {
+            "name": "TF_CHRISTMAS_COLLECT_GIFTS_STAT",
+            "description": "Christmas gifts collected"
+        },
+        {
+            "name": "TF_MAPS_FOUNDRY_WIN_ROUNDS_STAT",
+            "description": "Rounds won on Foundry"
+        },
+        {
+            "name": "Class.mvm.accum.iBuildingsDestroyed",
+            "description": "Total buildings destroyed as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iDamageDealt",
+            "description": "Total damage dealt as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iDominations",
+            "description": "Total dominations as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iKillAssists",
+            "description": "Total kill assists as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iNumberOfKills",
+            "description": "Total kills as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iPlayTime",
+            "description": "Total playtime as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iPointDefenses",
+            "description": "Total defenses as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iPointsScored",
+            "description": "Total points as Class"
+        },
+        {
+            "name": "Class.mvm.max.iBuildingsDestroyed",
+            "description": "Max buildings destroyed in one life as Class"
+        },
+        {
+            "name": "Class.mvm.max.iDamageDealt",
+            "description": "Max damage dealt in one life as Class"
+        },
+        {
+            "name": "Class.mvm.max.iDominations",
+            "description": "Max dominations in one life as Class"
+        },
+        {
+            "name": "Class.mvm.max.iKillAssists",
+            "description": "Max kill assists in one life as Class"
+        },
+        {
+            "name": "Class.mvm.max.iNumberOfKills",
+            "description": "Max kills in one life as Class"
+        },
+        {
+            "name": "Class.mvm.max.iPlayTime",
+            "description": "Longest life as Class"
+        },
+        {
+            "name": "Class.mvm.max.iPointDefenses",
+            "description": "Max defenses in one life as Class"
+        },
+        {
+            "name": "Class.mvm.max.iPointsScored",
+            "description": "Max points in one life as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iNumInvulnerable",
+            "description": "Total Übercharges as Class"
+        },
+        {
+            "name": "Class.mvm.max.iNumInvulnerable",
+            "description": "Max Übercharges in one life as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iBackstabs",
+            "description": "Total backstabs as Class"
+        },
+        {
+            "name": "Class.mvm.max.iBackstabs",
+            "description": "Max backstabs in one life as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iBuildingsBuilt",
+            "description": "Total buildings built as Class"
+        },
+        {
+            "name": "Class.mvm.max.iBuildingsBuilt",
+            "description": "Max buildings built in one life as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iHeadshots",
+            "description": "Total headshots as Class"
+        },
+        {
+            "name": "Class.mvm.max.iHeadshots",
+            "description": "Max headshots in one life as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iHealthPointsLeached",
+            "description": "Total HP leeched as Class"
+        },
+        {
+            "name": "Class.mvm.max.iHealthPointsLeached",
+            "description": "Max HP leeched in one life as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iHealthPointsHealed",
+            "description": "Total HP healed as Class"
+        },
+        {
+            "name": "Class.mvm.max.iHealthPointsHealed",
+            "description": "Max HP healed in one life as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iNumTeleports",
+            "description": "Total teleports as Class"
+        },
+        {
+            "name": "Class.mvm.max.iNumTeleports",
+            "description": "Max teleports in one life as Class"
+        },
+        {
+            "name": "Class.mvm.max.iSentryKills",
+            "description": "Max sentry gun kills in one life as Class"
+        },
+        {
+            "name": "Class.mvm.accum.iFireDamage",
+            "description": "Total fire damage as Class"
+        },
+        {
+            "name": "TF_MAPS_DOOMSDAY_WIN_ROUNDS_STAT",
+            "description": "Rounds won on Doomsday"
+        },
+        {
+            "name": "TF_KILL_BALLOONICORN_OWNERS_STAT",
+            "description": "Balloonicorn owner kills"
+        },
+        {
+            "name": "TF_MVM_COLLECT_MONEY_GRIND_STAT",
+            "description": "Money collected in Mann vs. Machine"
+        },
+        {
+            "name": "TF_MVM_KILL_ROBOT_GRIND_STAT",
+            "description": "Robots killed in Mann vs. Machine (\"Silicon Slaughter\" achievement)"
+        },
+        {
+            "name": "TF_MVM_KILL_ROBOT_MEGA_GRIND_STAT",
+            "description": "Robots killed in Mann vs. Machine (\"Metal Massacre\" killed achievement)"
+        },
+        {
+            "name": "{Map}.accum.iPlayTime",
+            "description": "Total playtime on {Map}"
+        },
+        {
+            "name": "TF_HALLOWEEN_HELLTOWER_WIN_ROUNDS_STAT",
+            "description": "Rounds won on Helltower"
+        },
+        {
+            "name": "TF_HALLOWEEN_HELLTOWER_ENVIRONMENTAL_KILLS_STAT",
+            "description": "Environmental kills in Hell on Helltower"
+        },
+        {
+            "name": "TF_HALLOWEEN_HELLTOWER_SKELETON_GRIND_STAT",
+            "description": "Skeleton kills on Helltower"
+        },
+        {
+            "name": "TF_HALLOWEEN_HELLTOWER_KILL_GRIND_STAT",
+            "description": "Spell kills on Helltower"
+        },
+        {
+            "name": "TF_HALLOWEEN_HELLTOWER_KILL_BROTHERS_STAT",
+            "description": "Times Blutarch and Redmond were sent to Hell on Helltower"
+        },
+        {
+            "name": "TF_MAPS_STANDIN_WIN_ROUNDS_STAT",
+            "description": "Rounds won on Standin"
+        },
+        {
+            "name": "TF_MAPS_PROCESS_WIN_ROUNDS_STAT",
+            "description": "Rounds won on Process"
+        },
+        {
+            "name": "TF_MAPS_SNAKEWATER_WIN_ROUNDS_STAT",
+            "description": "Rounds won on Snakewater"
+        },
+        {
+            "name": "TF_MVM_MAPS_MANNHATTAN_BOMB_BOT_GRIND_STAT",
+            "description": "Gate bots killed on Mannhattan"
+        },
+        {
+            "name": "TF_MVM_MAPS_ROTTENBURG_PIT_GRIND_STAT",
+            "description": "Robots thrown into the pit in Mannhattan"
+        },
+        {
+            "name": "TF_MAPS_SNAKEWATER_KILL_ENEMIES_IN_MIDDLE_STAT",
+            "description": "Enemies killed in the rafters above mid on Snakewater"
+        },
+        {
+            "name": "TF_MVM_ROCKET_SPECIALIST_STUN_GRIND_STAT",
+            "description": "Robots stunned with Rocket Specialist"
+        },
+        {
+            "name": "TF_PARACHUTE_KILL_GRIND_STAT",
+            "description": "Parachuting players killed"
+        },
+        {
+            "name": "TF_MELEE_KILL_CLASSIC_RIFLE_SNIPER_STAT",
+            "description": "Melee kills on Snipers using the Classic"
+        },
+        {
+            "name": "TF_SOLDIER_PARACHUTE_DISTANCE_STAT",
+            "description": "Distance parachuted as Soldier"
+        },
+        {
+            "name": "TF_DEMOMAN_PARACHUTE_DISTANCE_STAT",
+            "description": "Distance parachuted as Demoman"
+        },
+        {
+            "name": "TF_SCOUT_BACKSCATTER_KILL_FRIENDS_GRIND_STAT",
+            "description": "Steam friends killed with the Backscatter from behind"
+        },
+        {
+            "name": "TF_SCOUT_BACKSCATTER_KILL_SPY_GRIND_STAT",
+            "description": "Spies killed with the Backscatter from behind"
+        },
+        {
+            "name": "TF_SNIPER_CLASSIC_RIFLE_NOSCOPE_HEADSHOT_STAT",
+            "description": "Noscope headshot kills with the Classic"
+        },
+        {
+            "name": "TF_SNIPER_PARACHUTE_GRIND_STAT",
+            "description": "Parachuting enemies killed with headshots"
+        },
+        {
+            "name": "TF_TAUNT_DOSIDO_MELLE_KILL_STAT",
+            "description": "Melee kills on players doing the Square Dance"
+        },
+        {
+            "name": "TF_TAUNT_WHILE_CAPPING_STAT",
+            "description": "Partner taunts performed while capturing a Control Point"
+        },
+        {
+            "name": "TF_HALLOWEEN_DOOMSDAY_KILL_KARTS_STAT",
+            "description": "Bumper car kills on Carnival of Carnage"
+        },
+        {
+            "name": "TF_HALLOWEEN_DOOMSDAY_COLLECT_DUCKS_STAT",
+            "description": "Ducks collected on Carnival of Carnage"
+        },
+        {
+            "name": "TF_HALLOWEEN_DOOMSDAY_SCORE_GOALS_STAT",
+            "description": "Goals scored in bumper car soccer on Carnival of Carnage"
+        },
+        {
+            "name": "TF_HALLOWEEN_DOOMSDAY_RESPAWN_TEAMMATES_STAT",
+            "description": "Teammates revived during bumper car games on Carnival of Carnage"
+        },
+        {
+            "name": "TF_HALLOWEEN_DOOMSDAY_TINY_SMASHER_STAT",
+            "description": "Kills during Merasmus' melee only spell on Carnival of Carnage"
+        },
+        {
+            "name": "TF_MAPS_POWERHOUSE_WIN_ROUNDS_STAT",
+            "description": "Rounds won on Powerhouse"
+        },
+        {
+            "name": "TF_MAPS_POWERHOUSE_KILL_CAPPING_PLAYER_STAT",
+            "description": "Capping players killed on Powerhouse"
+        },
+        {
+            "name": "TF_MAPS_POWERHOUSE_KILL_ENEMY_IN_WATER_STAT",
+            "description": "Enemies killed in water on Powerhouse"
+        },
+        {
+            "name": "TF_PASS_TIME_GRIND_STAT",
+            "description": "PASS Time rounds won"
+        },
+        {
+            "name": "GCStat.MatchPoints_Casual",
+            "description": "Match points in Casual"
+        },
+        {
+            "name": "GCStat.MatchCompletion_Casual",
+            "description": "Casual match completions"
+        },
+        {
+            "name": "GCStat.MatchWins_Casual",
+            "description": "Casual match wins"
+        },
+        {
+            "name": "GCStat.MatchPoints_Competitive",
+            "description": "Match points in Competitive mode"
+        },
+        {
+            "name": "GCStat.MatchCompletion_Competitive",
+            "description": "Match completions in Competitive mode"
+        },
+        {
+            "name": "GCStat.MannUp_Victories",
+            "description": "Mann Up victories"
+        }
+    ]
+}
