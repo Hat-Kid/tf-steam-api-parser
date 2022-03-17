@@ -1,0 +1,1 @@
+  - {{ mvmClassStatDescription }}: {{ mvmClassStatValue }}

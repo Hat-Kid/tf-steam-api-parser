@@ -83,43 +83,14 @@ public:
     std::vector<AchievementStat> achievementStats;
 };
 
-std::string ConvertMSToHHMMSSMS(std::chrono::milliseconds ms)
-{
-    using namespace std::chrono;
-    std::stringstream ss;
-
-    // compute h, m, s, ms
-    auto secs = duration_cast<seconds>(ms);
-    ms -= duration_cast<milliseconds>(secs);
-
-    auto mins = duration_cast<minutes>(secs);
-    secs -= duration_cast<seconds>(mins);
-
-    auto hour = duration_cast<hours>(mins);
-    mins -= duration_cast<minutes>(hour);
-
-    std::string hr(std::to_string(hour.count()));
-    std::string min(std::to_string(mins.count()));
-    std::string s(std::to_string(secs.count()));
-    std::string msecs(std::to_string(ms.count()));
-
-    msecs = msecs.substr(0, 2);
-
-    // add leading zero if needed
-    std::string hh = std::string(4 - hr.length(), '0') + hr;
-    std::string mm = std::string(2 - min.length(), '0') + min;
-    std::string sec = std::string(2 - s.length(), '0') + s;
-    std::string millisec = std::string(2 - msecs.length(), '0') + msecs;
-
-    // return mm:ss if hh is 0000
-    if (hh.compare("0000") != 0)
-    {
-        ss << hr << ":" << mm << ":" << sec << "." << millisec;
-    }
-    else
-    {
-        ss << mm << ":" << sec << "." << millisec;
-    }
-
-    return ss.str();
+TfClass GetEnumFromClassString(const std::string& name) {
+    if (name == "Scout") return TfClass::Scout;
+    if (name == "Soldier") return TfClass::Soldier;
+    if (name == "Pyro") return TfClass::Pyro;
+    if (name == "Demoman") return TfClass::Demoman;
+    if (name == "Heavy") return TfClass::Heavy;
+    if (name == "Engineer") return TfClass::Engineer;
+    if (name == "Medic") return TfClass::Medic;
+    if (name == "Sniper") return TfClass::Sniper;
+    if (name == "Spy") return TfClass::Spy;
 }
