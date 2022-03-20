@@ -18,3 +18,24 @@ Requirements:
 Once you have a Steam ID and an API key, you may either run the program via the command line/terminal and use your Steam ID and API key as program arguments (i.e. `$ tf-steam-api-parser steamid64 apikey`) or you can just open it without specifying any arguments and it should manually ask you for your Steam ID and API key.
 
 When it is done fetching the data and parsing it (it should be near instant), the output will be a Markdown file called `stats.md` which contains all TF2 statistics for the Steam account.
+
+## Build (Linux)
+
+Requirements:
+
+- [CMake](https://cmake.org/) (`pacman -S cmake`)
+- [Conan](https://conan.io/) (`yay -S conan`)
+- Clang (or GCC, but untested) (`pacman -S clang`)
+
+Clone the repository:
+
+`git clone https://github.com/Hat-Kid/tf-steam-api-parser.git`
+
+Set up Conan if you haven't already:
+
+- Create a new default profile: `conan profile new default --detect`
+  - (If using GCC, additionally set `compiler.libcxx` to the C++11 standard with the following command: `conan profile update settings.compiler.libcxx=libstc++11 default`)
+- Open a terminal in the repository root and install the dependencies: `conan install . -s build_type=Release --install-folder=build`
+  - If you get an error about missing packages, you may have to manually build these dependencies for your particular platform by adding `--build missing` to the previous command
+- Set up CMake: `cmake -B build -DCMAKE_BUILD_TYPE=Release`
+- Build: `cmake --build build --config Release`
