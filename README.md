@@ -1,13 +1,11 @@
 # Steam API Parser for TF2 Statistics
 
----
 This project uses the Steam Web API to fetch your TF2 player statistics, like the ones you are already able to view on Steam, however, it also includes some hidden statistics that you don't have easy access to, such as your playtime for each class in Mann vs. Machine (and many others like total damage dealt for each class!) or your total playtime on a number of official maps such as plr_hightower, pl_upward, etc.
 
 Be aware that achievement stats stop counting once you have met the requirements for obtaining the achievement the stat pertains to.
 
 ## Usage
 
----
 Requirements:
 
 - A `SteamID64` which looks like this: `76561198076611413`
