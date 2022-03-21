@@ -10,6 +10,7 @@ Requirements:
 
 - A `SteamID64` which looks like this: `76561198076611413`
   - You can find yours using sites like [SteamID I/O](https://steamid.io/)
+  - **The Steam profile needs to have its "Game details" privacy setting set to public for the API to work!**
 - A Steam API key for your account which you can find (or generate if you do not have one) on this [Steam page](https://steamcommunity.com/dev/apikey)
   - **DO NOT SHARE** your API key with anybody!
 
