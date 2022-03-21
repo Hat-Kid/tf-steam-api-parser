@@ -4,8 +4,6 @@ This project uses the Steam Web API to fetch your TF2 player statistics, like th
 
 Be aware that achievement stats stop counting once you have met the requirements for obtaining the achievement the stat pertains to.
 
-For now, only a Linux binary release is provided (can be found as "build artifacts" under the Actions tab) until I am able to figure out how to get it to build on Windows/MSVC with GitHub Actions.
-
 ## Usage
 
 Requirements:
