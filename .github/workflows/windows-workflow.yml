@@ -52,7 +52,7 @@ jobs:
         working-directory: ./build
         shell: cmd
         run: |
-          cmake --build . -j2
+          cmake --build . --config ${{ matrix.config }} -j2
 
       - name: Compress artifacts
         run: |
