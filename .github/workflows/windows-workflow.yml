@@ -62,4 +62,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           path: ${{github.workspace}}/build.zip
-          name: release-bin-linux-x64_${{github.sha}}
+          name: release-bin-win-x64_${{github.sha}}
