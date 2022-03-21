@@ -38,9 +38,6 @@ jobs:
       - name: Conan - Profile
         run: type C:\Users\runneradmin\.conan\profiles\default
 
-      - name: Conan - Set runtime
-        run: conan profile update settings.compiler.runtime=MD default
-
       - name: Conan - Install dependencies
         run: conan install . -s build_type=${{ matrix.config }} --install-folder=${{github.workspace}}/build --build missing
 
@@ -48,6 +45,7 @@ jobs:
         shell: cmd
         run: |
             cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.config }}
+
       - name: Build Project
         working-directory: ./build
         shell: cmd
@@ -56,10 +54,10 @@ jobs:
 
       - name: Compress artifacts
         run: |
-          Compress-Archive -Path ${{github.workspace}}/build/bin/*.* -DestinationPath ${{github.workspace}}/build.zip
+          Get-ChildItem -Path ${{github.workspace}}/build/bin | Compress-Archive -DestinationPath ${{github.workspace}}/build.zip
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
           path: ${{github.workspace}}/build.zip
-          name: release-bin-win-x64_${{github.sha}}
+          name: release-bin-win-x64-${{matrix.compiler}}_${{github.sha}}
