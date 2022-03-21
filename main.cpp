@@ -119,6 +119,10 @@ PlayerStats FetchResults(const string &apiUrl) {
     curl_easy_setopt(conn, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);
     curl_easy_setopt(conn, CURLOPT_WRITEDATA, (void *) &data);
     curl_easy_setopt(conn, CURLOPT_USERAGENT, "libcurl-agent/1.0");
+#ifdef _WIN32
+    curl_easy_setopt(conn, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_easy_setopt(conn, CURLOPT_SSL_VERIFYHOST, 0);
+#endif
     code = curl_easy_perform(conn);
     if (code != CURLE_OK) {
         fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(code));
@@ -209,6 +213,10 @@ string getPersonaName(const string &apiUrl) {
     curl_easy_setopt(conn, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);
     curl_easy_setopt(conn, CURLOPT_WRITEDATA, (void *) &data);
     curl_easy_setopt(conn, CURLOPT_USERAGENT, "libcurl-agent/1.0");
+#ifdef _WIN32
+    curl_easy_setopt(conn, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_easy_setopt(conn, CURLOPT_SSL_VERIFYHOST, 0);
+#endif
     code = curl_easy_perform(conn);
     if (code != CURLE_OK) {
         fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(code));
