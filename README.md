@@ -18,6 +18,10 @@ Once you have a Steam ID and an API key, you may either run the program via the 
 
 When it is done fetching the data and parsing it (it should be near instant), the output will be a Markdown file called `stats.md` which contains all TF2 statistics for the Steam account.
 
+## Binaries (Windows, Linux)
+
+You can find precompiled binaries by going to the Actions tab on GitHub, selecting the latest successful run for your platform and downloading the artifact.
+
 ## Build (Linux)
 
 Requirements:
