@@ -50,7 +50,7 @@ std::string ConvertMSToHHMMSS(std::chrono::milliseconds ms)
     // return mm:ss if hh is 0000
     if (hh.compare("0000") != 0)
     {
-        ss << hr << ":" << mm << "." << sec;
+        ss << hr << ":" << mm << ":" << sec;
     }
     else
     {
