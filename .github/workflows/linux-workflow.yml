@@ -25,13 +25,13 @@ jobs:
     continue-on-error: ${{ matrix.experimental }}
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     
     - name: Get Conan
       uses: turtlebrowser/get-conan@v1.0
     
     - name: Conan - Create default profile
-      run: conan profile new default --detect
+      run: conan profile detect
 
     - name: Conan - Update profile
       run: conan profile update settings.compiler.libcxx=libstdc++11 default
